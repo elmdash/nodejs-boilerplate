@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-boilerplate",
+  "version": "1.0.0",
+  "description": "Starter project for nodejs projects",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/elmdash/nodejs-boilerplate.git"
+  },
+  "keywords": [
+    "nodejs",
+    "boilerplate"
+  ],
+  "author": "Peter Sooley",
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/elmdash/nodejs-boilerplate/issues"
+  },
+  "homepage": "https://github.com/elmdash/nodejs-boilerplate#readme"
+}
