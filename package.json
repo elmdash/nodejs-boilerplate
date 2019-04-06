@@ -35,10 +35,12 @@
     "verbose": true,
     "roots": [
       "src",
-      "lib"
+      "lib",
+      "test"
     ],
     "testMatch": [
-      "**/_test.js"
+      "**/(src|lib)/**/_test.js",
+      "**/test/**/*.test.js"
     ]
   }
 }
