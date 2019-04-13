@@ -15,7 +15,7 @@ module.exports = {
   rules: {
     'comma-dangle': ['error', 'always-multiline'],
     'no-multi-spaces': ['error', { ignoreEOLComments: true }],
-    'padded-blocks': ['error', { switches: 'always' }],
+    'padded-blocks': ['error', { switches: 'always'},  { allowSingleLineBlocks: true } ],
     'strict': ['error'],
     'no-unused-vars': ['warn', { varsIgnorePattern: '^_$' }],
   },
